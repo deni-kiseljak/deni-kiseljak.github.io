@@ -1,3 +1,9 @@
+// preloader -------------------------------
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+    loader.style.display = "none";
+})
 
 //mobile menu ------------------------------
 
@@ -11,13 +17,6 @@ function hideMenu() {
     navLinks.style.right = "-200px";
 }
 
-
-// preloader -------------------------------
-var loader = document.getElementById("preloader");
-
-window.addEventListener("load", function () {
-    loader.style.display = "none";
-})
 
 // change navbar color on scroll--------------------
 
