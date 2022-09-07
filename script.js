@@ -23,7 +23,7 @@ function hideMenu() {
 function changeNavColor() {
     var navbar = document.getElementById("navbar")
     var scrollValue = window.scrollY;
-    if (scrollValue < 850) {
+    if (scrollValue < 800) {
         navbar.classList.remove('navBg');
     }
     else{
