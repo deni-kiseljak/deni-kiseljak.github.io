@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Deni Kiseljak vCard / Resume / CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <!-- About -->
+    <section class="header" id="header">
+        <nav id="navbar" class="nesto">
+            <a href="index.html">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <span class="githugIcon"><a href="https://github.com/deni-kiseljak" target="_blank"><i
+                                class="fa-brands fa-github"></i></a></span>
+                    <li><a href="#header">ABOUT</a></li>
+                    <li><a href="#resume">RESUME</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Deni Kiseljak</h1>
+            <div class="typing-text">
+                <span class="typed-text"></span>
+            </div>
+            <p>Young developer and tester eager to expand his knowledge in the world of IT.
+                <br>I have some experience with testing, test automatisation and web development.
+                <br>Would love to get into machine learning and application development
+            </p>
+            <a href="#contact" class="hero-btn">Contact me</a>
+        </div>
+    </section>
+
+    <!-- -------------Resume part-------------  -->
+
+    <section class="resume" id="resume">
+        <h1><strong>R</strong>esume</h1>
+
+        <div class="row-single-box">
+            <div class="resume-col">
+                <div class="info-list">
+                    <p>
+                        <strong>Age . . . . . . . . . . . . . . . . . . . .</strong> 28
+                    </p>
+                    <p>
+                        <strong>Residence . . . . . . . . . . . . . . .</strong> Croatia
+                    </p>
+                    <p>
+                        <strong>Address . . . . . . . . . . . . . . .</strong> Zagreb, Croatia
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="resume-col">
+                <h3><i class="fa-solid fa-building-columns"></i> Education</h3>
+                <div class="education">
+                    <h6>2019 - Present</h6>
+                    <h4>VSITE</h4>
+                    <h5>Zagreb</h5>
+                    <p>Final year of a Bachelor's Degree in Computer Science.</p>
+                </div>
+                <div class="education">
+                    <h6>2008 - 2013</h6>
+                    <h4>High school Sesvete</h4>
+                    <h5>Zagreb</h5>
+                    <p> Graduated from school as an electrotechnician, mostly focused on hardware.</p>
+                </div>
+
+            </div>
+            <div class="resume-col">
+                <h3><i class="fa-solid fa-business-time"></i> Experience</h3>
+                <div class="experience">
+                    <h6>2022 - Present</h6>
+                    <h4>Automation tester</h4>
+                    <h5>ATRON electronic GmbH</h5>
+                    <p>Started college practice here and transitioned into a full time employee. Learned automation with
+                        Python and Robot Framework. </p>
+                </div>
+                <div class="experience">
+                    <h6>Before 2022</h6>
+                    <h4>Miscellaneous</h4>
+                    <h5>Zagreb</h5>
+                    <p>Mostly work that isn't connected to IT. </p>
+                </div>
+            </div>
+        </div>
+        <h1><strong>S</strong>kills</h1>
+        <div class="row">
+            <div class="resume-col">
+                <h3><i class="fa-solid fa-language"></i> Languages</h3>
+                <div class="languages">
+                    <p>Croatian
+                    <div class="container-progress">
+                        <div class="progress">
+                            <div class="progress-bar" id="croatian"></div>
+                        </div>
+                    </div>
+                    </p>
+                    <p>English
+                    <div class="container-progress">
+                        <div class="progress">
+                            <div class="progress-bar" id="english"></div>
+                        </div>
+                    </div>
+                    </p>
+                    <p>German
+                    <div class="container-progress">
+                        <div class="progress">
+                            <div class="progress-bar" id="german"></div>
+                        </div>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="resume-col">
+                <h3><i class="fa-solid fa-code"></i> Coding</h3>
+                <div class="coding">
+                    <p><i class="fa-brands fa-python"></i> Python
+                    <div>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <p><i class="fa-solid fa-c"></i></i>/<i class="fa-solid fa-c"></i>++/<i class="fa-solid fa-c"></i>#
+                    <div>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <p><i class="fa-brands fa-html5"></i> HTML/CSS
+                    <div>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot-filled"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+        <div class="row-single-box">
+            <div class="resume-col">
+                <h3><i class="fa-solid fa-book"></i> Knowledge</h3>
+                <p><i class="fa-solid fa-check"></i> Source control (Git) </p>
+                <p><i class="fa-solid fa-check"></i> Test automation (Robot Framework)</p>
+                <p><i class="fa-solid fa-check"></i> Linux and Unix scripting</p>
+                <p><i class="fa-solid fa-check"></i> Manual testing</p>
+                <p><i class="fa-solid fa-check"></i> Microsoft SQL/PostgreSQL</p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!-- ****** Works part ****** -->
+
+    <section class="works" id="works">
+        <h1><strong>R</strong>ecent works</h1>
+        <p>Some of my projects worth mentioning.</p>
+        <div class="row">
+            <div class="works-col">
+                <img src="images/pexels-neosiam-4498792.jpg">
+                <div class="layer">
+                    <h3>Coming soon</h3>
+                </div>
+            </div>
+            <div class="works-col">
+                <img src="images/pexels-neosiam-4498792.jpg">
+                <div class="layer">
+                    <h3>Coming soon</h3>
+                </div>
+            </div>
+            <div class="works-col">
+                <img src="images/pexels-neosiam-4498792.jpg">
+                <div class="layer">
+                    <h3>Coming soon</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***************Contact************ -->
+
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h1>Contact</h1>
+            <p>
+                <strong>Adress . . . . . . . . . . . . </strong> Zagreb, Croatia
+            </p>
+            <p>
+                <strong>E-mail . . . . . . . . . . </strong>
+                <a href="mailto:deni.kiseljak@gmail.com"> deni.kiseljak@gmail.com</a>
+            </p>
+            <p>
+                <strong>Phone . . . . . . . . . . . </strong><a href="tel:+385919142185">+385919142185</a>
+            </p>
+            <a href="mailto:`{deni.kiseljak@gmail.com}`" class="hero-btn">Send Message</a>
+    </section>
+
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
