@@ -310,7 +310,6 @@ h6 {
 }
 
 .languages p {
-    text-align: left;
     margin-left: 20px;
 }
 
@@ -397,7 +396,7 @@ h6 {
     display: inline-block;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
     .dot {
         height: 15px;
         width: 15px;
